@@ -30,9 +30,10 @@ DKI responsive search ad (RSA) copy + keyword→ad-group mapping for the plumbin
 - **DKI:** exactly ONE `{KeyWord:Default}` headline per ad. Default text ≤30 chars. If the searched keyword is >30 chars, Google shows the Default.
 - **Char limits:** headlines ≤30, descriptions ≤90, display paths ≤15. Verify after any edit.
 
-## Campaign settings
+## Campaign settings & bids
 
-See [SETUP.md](SETUP.md) — geo targeting, bidding caps, the bid-up shortlist, conversion tracking, negatives.
+- [SETUP.md](SETUP.md) — geo targeting, conversion tracking, negatives.
+- [BIDS.md](BIDS.md) — basic bid for all keywords + per-city high-intent bids ($24–30 call-drivers).
 
 ## 🚩 Site-copy fix needed
 
