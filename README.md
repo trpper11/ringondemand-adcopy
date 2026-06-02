@@ -32,8 +32,9 @@ DKI responsive search ad (RSA) copy + keyword→ad-group mapping for the plumbin
 
 ## Campaign settings & bids
 
-- [SETUP.md](SETUP.md) — geo targeting, conversion tracking, negatives.
+- [SETUP.md](SETUP.md) — geo targeting, conversion tracking, negatives overview.
 - [BIDS.md](BIDS.md) — basic bid for all keywords + per-city high-intent bids ($24–30 call-drivers).
+- [NEGATIVES.md](NEGATIVES.md) — extensive shared negative keyword list (`Plumbing_Master_Negs`) for all campaigns.
 
 ## 🚩 Site-copy fix needed
 
