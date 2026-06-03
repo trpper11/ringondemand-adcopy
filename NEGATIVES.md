@@ -75,10 +75,6 @@ become a plumber
 trade school
 continuing education
 plumbing school
-plumbing certification
-plumber certification
-get certified
-certification course
 average cost
 average price
 price list
@@ -97,8 +93,6 @@ true value
 sam's club
 supply house
 plumbing supply
-plumbers union
-union job
 low income
 financial help
 business for sale
@@ -119,7 +113,9 @@ this old house
 home improvement
 ```
 
-## BLOCK B — add as BROAD match (single words, scrubbed safe)
+## BLOCK B — add as BROAD match (single words)
+
+> Includes `free`, `test`, `union`, `grant`, `certification` — intentionally blocked (no PPC intent). Note: `union` / `grant` can also suppress rare "Union St" / "Grant Ave" style queries — accepted trade-off.
 
 ```
 vs
@@ -164,6 +160,7 @@ wages
 apprentice
 apprenticeship
 journeyman
+union
 resume
 intern
 internship
@@ -179,6 +176,9 @@ classes
 training
 licensing
 exam
+test
+certification
+certificate
 cost
 costs
 price
@@ -194,6 +194,8 @@ coupons
 promo
 deal
 deals
+free
+grant
 grants
 subsidy
 charity
@@ -327,12 +329,7 @@ These look like junk but were **kept out on purpose** because they'd block real 
 
 | Not blocked | Why |
 |-------------|-----|
-| `free` | Would block **"free estimate plumber"** — we advertise Free Estimates. |
-| `test` | Would block **"backflow test / testing"** — a real service (Santa Barbara). |
-| `certification` (single) | Would block **"backflow certification"** customers. Blocked only as job phrases. |
-| `supply` (single) | Would block **"water supply line repair"**. Kept "plumbing supply" / "supply house" as phrases. |
-| `union` (single) | Would block **Union St / Union City**. Kept "plumbers union" / "union job" as phrases. |
-| `grant` (single) | Would block street/area names. Kept `grants` (the funding sense). |
+| `supply` (single) | Blocks **"water supply line repair"** (a real high-intent job). Supply-*shopping* is still caught via "plumbing supply" / "supply house" / "supplies". |
 | `best` | We bid **"best plumber near me"**. |
 | `affordable` | We bid **"affordable plumber"**. |
 | `commercial` | We bid **commercial plumber** (Local ad group). |
